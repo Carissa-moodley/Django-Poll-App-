@@ -25,7 +25,7 @@ You will need to create a superuser to access the admin panel
 ### Run the program on a local server
 Run the following command in your terminal 
 `python manage.py runserver`
-Access the admin panel at http://127.0.0.1:8000/admin/ and the web application at [http://127.0.0.1:8000]http://127.0.0.1:8000/) in your browser.  
+Access the admin panel at http://127.0.0.1:8000/admin/ and the web application at http://127.0.0.1:8000/) in your browser.  
 
 ### Project snapshot
 #### Login Page
@@ -46,7 +46,7 @@ Access the admin panel at http://127.0.0.1:8000/admin/ and the web application a
 #### Edit Choices
 <img width="956" alt="add choice" src="https://github.com/Carissa-moodley/Django-Poll-App-/assets/31736109/9648fa6c-4a51-4e56-ba64-6037024da226">
 
-###Author 
+### Author 
 Carissa Moodley
 Credits: https://docs.djangoproject.com/en/5.0/
 

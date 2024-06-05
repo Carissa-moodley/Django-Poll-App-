@@ -1,0 +1,26 @@
+.header {
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.container {
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px 25px;
+    background-color: rgb(237, 231, 231);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]{
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:rgb(228, 210, 210);
+  }

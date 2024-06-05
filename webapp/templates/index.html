@@ -1,0 +1,136 @@
+{% load static %}
+<!--Content for personal webpage.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <title>Personal Webpage</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Carissa Moodley</h1>
+        </div>
+        <div class="container">
+            <div class="leftpanel">
+                <div class="rightPanel">
+                    <div class="AboutMe">
+                        <!--Short bio describing myself.-->
+                        <h2>About</h2>
+                        <p>I am a creative, curious and determined individual, 
+                        who enjoys collaborating with others and interacting with 
+                        people with different technical skills and backgrounds. 
+                        I am passionate about technology and the way in which it 
+                        is rapidly evolving. Through my time studying engineering 
+                        I have learnt analytical and critical thinking skills which
+                        have helped me develop my approach to solving complex problems.
+                        I have reached my final year and have two incomplete courses. 
+                        I have a good educational background in software development 
+                        and have a keen interest in space and technology, mobile 
+                        networks as well as AI.</p>
+                    </div>
+                    <div class="Education">
+                        <h2>Education</h2>
+                        <h4>Bachelor or Science, Electrical and Computer Engineering,
+                        <em>In progress</em></h4>
+                        <p><em>University of Cape Town - Cape Town</em></p>
+                        <p>Coursework in Computer Science, Signals & Systems, Digital
+                        Electronices, Embedded Systems, Communication System & 
+                        Network Design, Mobile Broadband Networks, Proffessional
+                        Communication, Project Management, Digital Systems and Digital
+                        Signal Processing. </p>
+                        <h4>National Senior Certificate, 2013</h4>
+                        <p><em>Star College Girls High - Durban</em>
+                        Obtained distinctions in Mathematics, Physical Sciences,
+                        Life Sciences, Accounting, English, Afrikaans and Life 
+                        Orientation.</p>
+                    </div>
+                    <div class="workExperience">
+                        <h2>Work Experience</h2>
+                        <h3>UCT Open Day Mobile App</h3>
+                        <h5>UCT(Rondebosch, Cape Town) - June/July 2018</h5>
+                        <p>Worked in a team of two to design a mobile app for the EBE
+                        department for open day at UCT under the supervision of Dr
+                        Simon Winberg.</p>
+                        <h3>Practical Training</h3>
+                        <h4>CPUT(Bellville, Cape Town) - June 2016</h4>
+                        <p>Rigorous practical experience course which included CNC work,
+                        welding, fitting and turning, metrology, pneumatics and robotics.</p>
+                    </div>
+
+                    <div class="contactdetails">
+                        <h2>Contact</h2>
+                        <p>Mobile: +27781131894</p>
+                        <p>Email: carissamoodley6@gmail.com</p>
+                    </div>
+                </div>
+            
+                <div class="search">
+                    <!--Create a Search form-->
+                     <search>
+                         <form method="get">
+                             <label for="site-search">Search page:</label>
+                             <input type="search" id="site-search" name="q"/>
+                             <button type="submit">Search</button>
+                         </form>
+                     </search>
+                </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Proficiency in the following programming languages:
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>C/C++</li>
+                            <li>Assembly</li>
+                            <li>Matlab</li>
+                        </ul>
+                    </li>
+                    <li>Data Analysis and statistical modelling</li>
+                    <li>FPGA development</li>
+                    <li>Testing and debugging</li>
+                    <li>Experience in hardware design, building electronic circuits
+                        and soldering</li>
+                    <li>Data Analysis in Microsoft Excel</li>
+                    <li>Technical report writing</li>
+                </ul>
+            </div>
+                
+            <div class="interests">
+                <h2>Interests</h2>
+                <h5>Art & Design</h5>
+                <ul>
+                    <li>Mixed media illustration</li>
+                    <li>Watercolour painting</li>
+                    <li>Jewellery making</li>
+                </ul>
+                <h5>Reading</h5>
+                <ul>
+                    <li>Contemporary fiction</li>
+                    <li>Self-development</li>
+                </ul>
+                <h5>Cooking and baking</h5>
+                <ul>
+                    <li>Experiencing foods from different cultures</li>
+                    <li>Experimenting with different flavours</li>
+                </ul>
+
+            </div>
+           
+            <div class="contact">
+                <!--Create a Contact form-->
+                <form method="post">
+                    <h4>Get in touch</h4>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"/>
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" name="email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

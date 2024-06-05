@@ -48,5 +48,6 @@ Access the admin panel at http://127.0.0.1:8000/admin/ and the web application a
 
 ### Author 
 Carissa Moodley
+
 Credits: https://docs.djangoproject.com/en/5.0/
 
